@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.board-column {
+  float: left;
+  clear: right;
+  margin: 50px 10px 10px 10px;
+  border-radius: 5px;
+  background-color: #eaebed;
+  /* width: 300px; */
+  padding-bottom: 20px;
+  padding-left: 6px;
+  padding-right: 6px;
+  min-height: 700px;
+  display: table;
+}
+
+.board-column .ui.header .ui.label {
+  margin-left: 0;
+}
+.board-column .ui.header .icon {
+  margin-right: 0;
+  text-align: unset;
+  margin: unset;
+}
+.board-column .ui.scrolling.content {
+  /* min-height: 300px; */
+  min-width: 312px;
+  min-height: 100px;
+}
+
+.board-column .content {
+  max-height: 800px;
+  overflow: auto;
+  padding-top: 10px;
+}
+.board-column .create-task-button {
+  display: flex;
+  margin-right: 15px;
+}
+.board-mat {
+  display: "flex";
+  /* background-color: #159f9f; */
+  height: 900px;
+  margin-top: -20px;
+}
+
+/* https://www.materialpalette.com/colors */
+
+.board-mat-0 {
+  background-color: #48809b;
+}
+.board-mat-1 {
+  background-color: #009688;
+}
+.board-mat-2 {
+  background-color: #ff9800;
+}
+.board-mat-3 {
+  background-color: #3f51b5;
+}
+.board-mat-4 {
+  background-color: #e91e63;
+}
+.board-mat-5 {
+  background-color: #2196f3;
+}
+.board-mat-6 {
+  background-color: #03a9f4;
+}
+.board-mat-7 {
+  background-color: #00bcd4;
+}
+.board-mat-8 {
+  background-color: #9575cd;
+}
+.board-mat-9 {
+  background-color: #4caf50;
+}
+.board-mat-10 {
+  background-color: #8bc34a;
+}
+.board-mat-11 {
+  background-color: #cddc39;
+}
+.board-mat-12 {
+  background-color: #f44336;
+}
+.board-mat-13 {
+  background-color: #ffc107;
+}
+.board-mat-14 {
+  background-color: #ab47bc;
+}
+.board-mat-15 {
+  background-color: #ff7043;
+}
+.board-mat-16 {
+  background-color: #8d6e63;
+}
+.board-mat-17 {
+  background-color: #bdbdbd;
+}
+
+.board-mat-18 {
+  background-color: #607d8b;
+}
+
+.board-list-item {
+  background-color: whitesmoke;
+  height: 50px;
+  margin-bottom: 8px;
+  width: 290px;
+  max-width: 100%;
+  position: relative;
+  z-index: 1;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+
+.board-list-item:hover {
+  transform: translate(10px, 0px);
+}
+
+.board-list-item-content {
+  margin-left: 10px;
+  align-self: center;
+  font-weight: bold;
+}
+
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid #607d8b;
+  margin-left: auto;
+  margin-right: 8px;
+}
+
+.task {
+  width: 98%;
+  max-width: 300px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 4px;
+  word-wrap: break-word;
+  box-shadow: 0 0 0 1px #d4d4d5, 0 2px 4px 0 rgba(34, 36, 38, 0.12),
+    0 2px 10px 0 rgba(34, 36, 38, 0.15);
+  margin-left: 4px;
+}
+.boards-menu-panel {
+  margin-left: 30px;
+  margin-top: 36px;
+}
