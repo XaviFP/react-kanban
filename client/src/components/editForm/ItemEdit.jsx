@@ -81,7 +81,7 @@ class ItemEdit extends React.Component {
                     type="text"
                     name="title"
                     value={this.state.item.title ? this.state.item.title : ""}
-                    placeholder={`Write ${this.state.itemType}'s title here`}
+                    placeholder={`Write ${this.state.item.type}'s title here`}
                     onChange={this.handleTitleChange}
                   />
                 </div>
@@ -97,7 +97,7 @@ class ItemEdit extends React.Component {
                         ? this.state.item.description
                         : ""
                     }
-                    placeholder={`Write ${this.state.itemType}'s description here`}
+                    placeholder={`Write ${this.state.item.type}'s description here`}
                     onChange={this.handleDescriptionChange}
                   />
                 </div>
