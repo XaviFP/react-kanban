@@ -1,4 +1,4 @@
-# Ongoing Kanban React-Node.js pet project
+# Kanban React-Node.js pet project
 
 ## How to run:
 
